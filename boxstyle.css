@@ -1,0 +1,49 @@
+*{
+
+box-sizing: border-box;   
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+p {
+  margin: 0;
+}
+
+#box1 {
+  width: 14vmin;
+  height: 14vmin;
+  border: 0.5vmin solid black;
+  background-color: lightcoral;
+  padding: 0.5vmin;
+  font-size: 1.5vmin;
+}
+
+#box2 {
+  width: 28vmin;
+  height: 28vmin;
+  margin-left: 14vmin;
+  border: 1vmin solid pink;
+  background-color: lightgreen;
+  padding: 2vmin;
+  font-size: 1.5vmin;
+}
+
+#box3 {
+  width: 56vmin;
+  height: 56vmin;
+  margin-left: 42vmin;
+  border: 2vmin solid purple;
+  background-color: lightskyblue;
+  padding: 3vmin;
+  font-size: 1.5vmin;
+}
